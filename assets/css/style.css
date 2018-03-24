@@ -52,6 +52,7 @@ body {
 .border::after {
   content: "|";
   padding-left: 20px;
+  color: #efefef;
   }
 
 #whitebackground{
@@ -86,7 +87,6 @@ h2{
 #sidebar{
   background: #fff;
   text-align: center;
-
 }
 
 a:focus{
@@ -176,6 +176,10 @@ form{
   }
   .border::after{
     display: none;
+  }
+
+  h3{
+    width: 100%;
   }
 }
 
