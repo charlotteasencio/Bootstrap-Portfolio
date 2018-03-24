@@ -124,7 +124,7 @@ p{
 
 .profileimg{
   height: auto;
-  width: 100%;
+  max-width: 100%;
 }
 
 .work{
@@ -174,12 +174,17 @@ form{
   #sidebar{
     margin-top: 30px;
   }
-
+  .border::after{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   #sidebar{
     margin-top: 30px;
+  }
+  .border::after{
+    display: none;
   }
 }
 
